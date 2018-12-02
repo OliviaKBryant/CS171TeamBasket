@@ -1,0 +1,442 @@
+.container-fluid{
+    padding: none;
+}
+body {
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.header {
+    height: 620px;
+    background-color: rgba(134, 142, 150, 0.84);
+}
+
+h3 {
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+#title {
+  font-weight: 100;
+  font-size: 80px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.first-title {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.collage {
+    background-color: #3679A9;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+#flagdiv {
+    height: 150px;
+    padding-left: none;
+}
+
+
+#quiz{
+    font-size: 14px;
+    font-family: 'Actor', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#quiz-title {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 18px;
+}
+
+.quiz-reason {
+    padding-right: 10px;
+}
+
+#answer {
+    padding-top: 30px;
+    padding-right: 30px;
+    height: 120px;
+}
+#first-amendment-info{
+    height: 500px;
+}
+
+#flag {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 100%;
+    height: 150px;
+    padding-left: 0;
+}
+
+#comfortable {
+    background-color: #AF000E;
+    height: 150px;
+    padding-right: 10px;
+}
+
+#noPlatform {
+    height: 150px;
+}
+
+#saviosound {
+    visibility: hidden;
+}
+
+#info {
+    margin: auto;
+    width: 60%;
+    font-size: 14px;
+    height: 120px;
+    padding-top: 20px;
+    font-family: 'Actor', sans-serif;
+}
+
+#noPlatform {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#berkeley {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 1px;
+    width: 100%;
+    height: 300px;
+}
+
+#savioHeader {
+    background-color: #AF000E;
+    height: 150px;
+    padding-top:14px;
+    padding-bottom: 14px;
+
+}
+
+#benShap {
+    height: 150px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.finalRow {
+    height: 150px;
+    padding-bottom: 14px;
+}
+
+#protest{
+    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#mario {
+    height: 150px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#marioSav {
+    background-color: #AF000E;
+    height: 150px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+#bostonVideo {
+    position: absolute;
+    left: 0%;
+    top: 1500px;
+    width: 250px;
+    height: 215px;
+    padding-left: 50px;
+}
+
+#bostonVideo:hover, #kentVideo:hover, #yaleVideo:hover{
+    transform: scale(1.75, 1.75);
+}
+
+/*#kentVideo {*/
+    /*position: absolute;*/
+    /*width: 250px;*/
+    /*height: 200px;*/
+    /*left: 34%;*/
+    /*top: 1505px;*/
+    /*padding-left: 50px;*/
+/*}*/
+
+/*#yaleVideo {*/
+    /*position: absolute;*/
+    /*width: 250px;*/
+    /*height: 200px;*/
+    /*top: 1780px;*/
+    /*left: 67%;*/
+    /*padding-left: 50px;*/
+/*}*/
+
+#line-graphs {
+    width: 100%;
+    height: 500px;
+}
+
+#linegraph-description{
+    background-color: #C0C0C0;
+}
+
+
+#mapViz {
+    height: 550px;
+}
+
+#map .usmap{
+    fill: #dddddd;
+}
+
+#labels-colleges {
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+#disinvitation-visualization {
+    background-color: #C0C0C0;
+    height: 620px;
+}
+
+#conclusion-img {
+    height: 360px;
+}
+
+#conclusion-info {
+    height: 360px;
+}
+
+#data-links{
+    height: 100px;
+    background-color:  #3679A9;
+}
+
+p {
+    font-family: 'Actor', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+li {
+    font-family: 'Actor', sans-serif;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 16px;
+    font-family: 'Actor', sans-serif;
+    background-color: #3679A9;
+
+}
+
+.btn:hover {
+    background-color: rgba(54, 121, 169, 0.65);
+}
+
+.red {
+    color: #AF000E;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.blue {
+    color: #3679A9;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.white {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    color: #3679A9;
+}
+
+.x-axis{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 18px;
+}
+
+#milosound {
+    visibility: hidden;
+}
+
+#correct {
+    color: #4A9F39;
+}
+
+#incorrect {
+    color: #AF000E;
+}
+
+#protest-img, #hateful, #strike, #oil{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 135px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+
+#first-footer {
+    height: 145px;
+    background-color: #AF000E;
+}
+
+#disinvited-speakers-text {
+    text-align: center;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#disinvitation-group-by {
+    padding-bottom: 10px;
+}
+
+#information {
+    padding: 20px;
+}
+
+#first-amendment {
+    padding-left: 80px;
+    quotes: "“" "”" "‘" "’";
+    width: 38em;
+    display: block;
+    margin: 1em;
+    font-size: 1em;
+    text-align: justify;
+    position: relative;
+
+}
+#first-amendment:before, #first-amendment:after {
+    font-size: 4em;
+    position: absolute;
+}
+#first-amendment:before {
+    content: open-quote;
+    left: 0.8em;
+    top: -0.3em;
+}
+#first-amendment:after {
+    content: close-quote;
+    right: 1.09em;
+    bottom: -0.8em;
+}
+
+/*********************/
+/*  TOOLTIP OVERLAY  */
+/*********************/
+
+
+.tooltip {
+    pointer-events: none;
+}
+
+.tooltip-title {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: white;
+    color: #000000;
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none !important;
+    font-family: "Actor", sans-serif;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: white;
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+#visual-timeline {
+    width: 100%;
+    height: 700px;
+}
+
+#aeiVideo{
+    width: 100%;
+}
+
+#disinvited-explanation {
+    font-size: 16px;
+    font-family: "Actor", sans-serif;
+    background-color: rgba(134, 142, 150, 0.79);
+    text-align: center;
+    padding-top: 10px;
+}
+
+#speaker-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.y-axis{
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.infoText {
+    font-family: "Actor", sans-serif;
+}
+
+
+/*.circle {*/
+    /*animation-name: pulse_animation;*/
+    /*animation-duration: 5000ms;*/
+    /*transform-origin:70% 70%;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-timing-function: linear;*/
+/*}*/
+
+/*@keyframes pulse_animation {*/
+    /*0% { transform: scale(1); }*/
+    /*30% { transform: scale(1); }*/
+    /*40% { transform: scale(1.08); }*/
+    /*50% { transform: scale(1); }*/
+    /*60% { transform: scale(1); }*/
+    /*70% { transform: scale(1.05); }*/
+    /*80% { transform: scale(1); }*/
+    /*100% { transform: scale(1); }*/
+/*}*/
